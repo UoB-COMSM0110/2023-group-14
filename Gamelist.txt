@@ -5,4 +5,4 @@
 5. Pong
 6. Snake
 7. Minesweaper 
-8. Gold Miner
+8. Flappy bird
