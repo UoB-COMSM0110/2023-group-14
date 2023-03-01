@@ -14,7 +14,6 @@ Overall, this stripped-back version of Donkey Kong will offer a fun and challeng
 - Implement Donkey Kong's throwing of barrels, which will roll down the platforms toward the player.
 - Implement collision detection between the player, platforms, ladders, and barrels to ensure proper gameplay mechanics.
 - Implement the gradual decrease of platform size over time to increase difficulty.
-- Add sound effects and music to enhance the player's experience.
 - Implement a scoring system and high score leaderboard to encourage replayability and competition among players.
 - Test the game thoroughly to ensure proper gameplay mechanics and minimize bugs.
 - (optional: power ups to restore parts of the platform, sound effects and music, multiple levels)
