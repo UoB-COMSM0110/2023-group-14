@@ -9,8 +9,7 @@ In this game, the player will control a character who must climb up a series of 
 Overall, this stripped-back version of Donkey Kong will offer a fun and challenging gameplay experience for players of all ages and skill levels.
 
 ## **Requirements (15% ~750 words)**
-- Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop?
-
+Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop?
 - Create game graphics including the characters (player and Donkey Kong), platforms, ladders, and barrels.
 - Implement player movement controls for moving left, right, jumping, and climbing ladders.
 - Implement Donkey Kong's throwing of barrels, which will roll down the platforms toward the player.
@@ -27,7 +26,7 @@ Overall, this stripped-back version of Donkey Kong will offer a fun and challeng
 3. Balancing the game difficulty: Balance the game's difficulty to ensure that it remains challenging but not frustratingly difficult, while also providing a sense of progression as the player advances through the game.
 
 ## **Design (15% ~750 words)**
-- System architecture. Class diagrams, behavioural diagrams.
+System architecture. Class diagrams, behavioural diagrams.
 
 A proposed architecture based on the Model-View-Controller (MVC) design pattern.
 
@@ -41,7 +40,7 @@ A proposed architecture based on the Model-View-Controller (MVC) design pattern.
 - The controller layer includes the GameController, CollisionController, and PlatformController classes for managing user input, collision detection, and platform size decrease, respectively.
 
 ## **Implementation (15% ~750 words)**
-- Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game.
+Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game.
 
 ## **Evaluation (15% ~750 words)**
 - One qualitative evaluation (your choice)
@@ -49,11 +48,11 @@ A proposed architecture based on the Model-View-Controller (MVC) design pattern.
 - Description of how code was tested.
 
 ## **Process (15% ~750 words)**
-- Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together.
+Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together.
 
 ## **Conclusion (10% ~500 words)**
-- Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work.
+Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work.
 
 ## **Individual contribution**
-- Provide a table of everyone's contribution, which may be used to weight individual grades. We expect that the contribution will be split evenly across team-members in most cases. Let us know as soon as possible if there are any issues with teamwork as soon as they are apparent.
+Provide a table of everyone's contribution, which may be used to weight individual grades. We expect that the contribution will be split evenly across team-members in most cases. Let us know as soon as possible if there are any issues with teamwork as soon as they are apparent.
 
