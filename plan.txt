@@ -1,0 +1,30 @@
+Object classes for the game state: 
+
+- Player
+
+
+- Donkey Kong
+  Enemy just needs to spawn the barrels
+
+- Barrels 
+  Object that gets instantiated many times
+
+- Platforms/disappearing platforms
+
+
+- Ladders
+  Object that gets instantiated many times and has rules on where it can spawn?
+
+- The Princess
+  Has positional coordinates that when the player object reaches these coordinates, the game ends.
+ 
+
+Attributes:
+
+- X/Y Coordinate, necessary for basically every object in the game.
+- Size
+- Physical/not physical, this is for the platforms when they disappear they become not physical.
+- Jump attribute for the player, key pressed/released = one jump?
+- Direction, for the player object and the barrels
+- Speed, for the moving objects, such as the barrels and the player.
+-  
