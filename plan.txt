@@ -1,15 +1,32 @@
 Object classes for the game state: 
 
-- Player
+- Player:
+    Methods:
+    - Get direction
+    - Set direction
+    - Movement when arrow key is pressed
+    - Jump, boolean, when true player moves up
+    - Set dead, boolean, set to true if player coordinate is the same as a barrel
+    - 
 
 
-- Donkey Kong
+- Donkey Kong:
   Enemy just needs to spawn the barrels
 
-- Barrels 
+- Barrels:
   Object that gets instantiated many times
+  
+  Methods:
+  - Spawn barrel
+  - Change direction
+  - Change platform
+  - Despawn barrel
+  - 
 
-- Platforms/disappearing platforms
+- Platforms/disappearing platforms:
+
+  Methods: 
+  - 
 
 
 - Ladders
@@ -17,7 +34,13 @@ Object classes for the game state:
 
 - The Princess
   Has positional coordinates that when the player object reaches these coordinates, the game ends.
+  
+  Methods:
+  - Round win
+  
  
+
+
 
 Attributes:
 
