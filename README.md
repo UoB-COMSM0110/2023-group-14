@@ -23,3 +23,20 @@ Overall, this stripped-back version of Donkey Kong will offer a fun and challeng
 1. Implementing the gradual decrease of platform size over time: This requires creating a timer or counter that decreases the size of the platform over time, while still ensuring that the player can move and jump on the platform. Additionally, ensure that the platform size gradually decreases in a smooth and consistent manner to avoid jerky movements or glitches.
 2. Implementing proper collision detection: This requires accurate detection of collisions between the player, platforms, ladders, and barrels, as well as implementing the appropriate actions for each collision.
 3. Balancing the game difficulty: Balance the game's difficulty to ensure that it remains challenging but not frustratingly difficult, while also providing a sense of progression as the player advances through the game.
+
+## **Game architecture**
+
+A proposed architecture based on the Model-View-Controller (MVC) design pattern.
+
+### Modal
+-The game model will include several classes for managing different aspects of the game state, including the Game, Player, DonkeyKong, Barrel, and Platform classes.
+
+### View
+-The view layer includes the GameView class for rendering the game window and graphics, and the ScoreView class for displaying the player score and high score leaderboard.
+
+### Controller
+-The controller layer includes the GameController, CollisionController, and PlatformController classes for managing user input, collision detection, and platform size decrease, respectively.
+
+
+
+
