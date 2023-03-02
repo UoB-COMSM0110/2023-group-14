@@ -2,7 +2,7 @@
 Members: Jake | Ziyu | Zeyun | Mish | Xueqing
 
 ## **Introduction (5% ~250 words)**
--  Describe your game, what is based on, what makes it novel?
+Describe your game, what is based on, what makes it novel?
 
 In this game, the player will control a character who must climb up a series of platforms to reach Donkey Kong at the top. Donkey Kong will be throwing barrels down at the player, which the player must avoid or jump over. As the player progresses through the levels, the platform on which the player is standing will gradually disappear, making the game more difficult.
 
