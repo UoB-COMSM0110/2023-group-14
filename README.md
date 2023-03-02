@@ -29,13 +29,13 @@ Overall, this stripped-back version of Donkey Kong will offer a fun and challeng
 A proposed architecture based on the Model-View-Controller (MVC) design pattern.
 
 ### Modal
--The game model will include several classes for managing different aspects of the game state, including the Game, Player, DonkeyKong, Barrel, and Platform classes.
+- The game model will include several classes for managing different aspects of the game state, including the Game, Player, DonkeyKong, Barrel, and Platform classes.
 
 ### View
--The view layer includes the GameView class for rendering the game window and graphics, and the ScoreView class for displaying the player score and high score leaderboard.
+- The view layer includes the GameView class for rendering the game window and graphics, and the ScoreView class for displaying the player score and high score leaderboard.
 
 ### Controller
--The controller layer includes the GameController, CollisionController, and PlatformController classes for managing user input, collision detection, and platform size decrease, respectively.
+- The controller layer includes the GameController, CollisionController, and PlatformController classes for managing user input, collision detection, and platform size decrease, respectively.
 
 
 
