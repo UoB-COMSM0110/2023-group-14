@@ -1,0 +1,57 @@
+ArrayList<Ball> balls = new ArrayList<Ball>();
+
+void setup() {
+  size(400, 400);
+}
+
+void draw() {
+  background(255);
+  fill(0);
+  ellipse(height/4, height/4, 20, 20);
+  // 更新和绘制每个球
+  for (Ball ball : balls) {
+    ball.update();
+    ball.display();
+  }
+  
+  // 每隔一段时间添加一个新的球
+  if (frameCount % 60 == 0) {
+    balls.add(new Ball());
+  }
+}
+
+class Ball {
+  float x, y, vx, vy;
+  int c;
+  float r;
+
+  Ball() {
+    // 随机设置球的初始位置、颜色、大小和速度
+    x = height/4;
+    y = height/4;
+    r = 20;
+    vx = random(-5, 5);
+    vy = random(-5, 5);
+  }
+
+  void update() {
+    // 移动球
+    x += vx;
+    y += vy;
+    
+    // 碰到边界时反弹
+    if (x < 0 || x > width) {
+      vx = -vx;
+    }
+    if (y < 0 || y > height) {
+      vy = -vy;
+    }
+  }
+
+  void display() {
+    // 绘制球
+    noStroke();
+    fill(99);
+    ellipse(x, y, r, r);
+  }
+}
